@@ -17,13 +17,23 @@ Create an ETL pipeline from raw data to SQL database.
 	* **Wikipedia:** (format: .json, file size: 6.2MB) 7.3 thousand movie titles that include information about the movies, budgets, box office returns, cast/crew, production and distribution.
 	* **Kaggle:** - 2 files (format: .csv)
 		* a metadata file from [The Movie Database](https://www.themoviedb.org/) containing movie details with 45.5 thousand entries. (File size: 34.4MB)
-		* a dataset from [MovieLens](https://movielens.org/) containing over 26.5 million movie ratings/review. (File size: 709.6MB)
+		* a dataset from [MovieLens](https://movielens.org/) containing over 26 million movie ratings/review. (File size: 709.6MB)
 
 * **Transform:** Clean and structure data using Pandas and regular expressions (RegEx) to achieve desired form. (i.e. using RegEx to parse data and transform text into numbers.
 	* Deleting bad data (corrupted or missing), removing duplicate rows, and consolidating columns.
 	* Using RegEx to parse data and transform text into numbers.
 
 * **Load:** Write the data into a database, such as PostgreSQL.
+
+## Results
+
+Ultimately, we were able to clean, merge the datasets and export the two new tables into PostgreSQL. The movies table had 6,052 rows. A 17% reduction from the original of 7,311.
+
+![movie](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/Resources/movies_query.png)
+
+he ratings table was also created and exported into the database with 26,024,289 rows.
+
+![ratings](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/Resources/ratings_query.png)
 
 ## Issues
 
@@ -47,4 +57,4 @@ Overall, this very dense topic to learn and complete in one week. The process of
 ## Resources
 * Software: Python 3.7.9, Anaconda 4.9.2, Jupyter Notebooks 6.1.4, PostgreSQL 4.28
 * Libraries: Pandas, SQLAlchemy, NumPy
-* Files: [Wikipedia Json](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/Resources/wikipedia-movies.json), [Movie Database Metadata](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/Resources/movies_metadata.csv.zip), and [MovieLens Ratings](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=ratings.csv)
+* Files: [Wikipedia Json](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/Resources/wikipedia-movies.json), [Movie Database Metadata](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/Resources/movies_metadata.csv.zip), and [MovieLens Ratings](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=ratings.csv)  
