@@ -42,9 +42,15 @@ Each attempt resulted in `remote: error: File ratings.csv.zip is 169.99 MB; this
 
 Attempts to have the file tracked through `git lfs track "*.csv"` and have the file uploaded utilizing LFS also resulted in an error. 
 
-Also, extracting and loading the ratings data (26 million rows) into the database took more than 3 hours to complete.
+Also, extracting and loading the ratings data (26 million rows) into the database took more than 3 hours to complete in the practice file and 2 hours to complete when executing [Deliverable 4 file](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/ETL_create_database.ipynb).
+
+**Practice File Results**
 
 ![timestamp](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/Resources/Images/timestamp_ratings_TTL.png)
+
+**Deliverable 4 File Results**
+
+![timestampfinal](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/Resources/Images/TimedResults-TTL.png)
 
 ## Summary
 
