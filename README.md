@@ -38,7 +38,7 @@ Attempts to install LFS and have the file uploaded utilizing LFS also resulted i
 
 Also, extracting and loading the ratings data (26.5 million rows) into the database took more than 3 hours to complete.
 
-![timestamp](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/Resources/Images/timestamp_ratings.png)
+![timestamp](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/Resources/Images/timestamp_ratings_TTL.png)
 
 ## Summary
 
