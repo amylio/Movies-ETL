@@ -54,10 +54,21 @@ Also, extracting and loading the ratings data (26 million rows) into the databas
 
 ## Summary
 
-Overall, this very dense topic to learn and complete in one week. The process of reviewing the data and knowing what to "clean" was challenging, including cross comparison between the datasets, as well as, learning how to use RegEx to parse the text. I expect that to become an expert in ETL, especially RegEx outside of class would require extensive practice and application using real-life examples. I am hoping that with time, I can apply this learning to prepare large datasets for analysis.  
+Overall, this was a very dense topic to learn and complete in one week. The process of reviewing the data and knowing what to "clean" was challenging, including cross comparison between the datasets, as well as, learning how to use RegEx to parse the text. I expect that to become an expert in ETL, especially RegEx outside of class would require extensive practice and application using real-life examples. I am hoping that with time, I can apply this learning to prepare large datasets for analysis.  
 
 ## Resources
 * **Software:** Python 3.7.9, Anaconda 4.9.2, Jupyter Notebooks 6.1.4, PostgreSQL 4.28
 * **Libraries:** Pandas, SQLAlchemy, NumPy
 * **Troubleshooting:** [Deleting Cache](https://docs.github.com/en/github/managing-large-files/removing-files-from-a-repositorys-history), [Using Git LFS](https://git-lfs.github.com/)
 * **Files:** [Wikipedia Json](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/Resources/wikipedia-movies.json), [Movie Database Metadata](https://github.com/amylio/Movies-ETL/blob/main/MOD8_Challenge_Submission/Resources/movies_metadata.csv.zip), and [MovieLens Ratings](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=ratings.csv)  
+
+## Grading Feedback
+"Congratulations on an outstanding homework assignment! You were able to deliver on writing an ETL function to read three different files. All three of these datasets were converted to DataFrames and properly formatted and displayed correctly!
+
+Great job with your data extraction process, all TV shows are filtered out, extracted and the cleaned data type is converted to a DataFrame and displayed. As a side note well done successfully using a try-except block! This is a job well done! And you should be proud!
+
+Now, I have to say how impressed I am with the extraction of the Kaggle metadata! You were able to not only clean the data but also, you merged datasets, the “movies” DataFrame is created and all four tasks are performed and all three tasks are completed during the extraction/transformation of the MovieLens rating data.  
+
+Finally, you were able to successfully create the movie database, while simultaneously being able to drop the ratings table, and you moved the MovieLens rating to the SQL ratings table. Sweet job getting the ETA displayed!
+
+Keep up the amazing work and this awesome flow you have been able to establish!"
